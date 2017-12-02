@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACADB4601FD2658E0092E7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB45F1FD2658E0092E7DD /* AppDelegate.swift */; };
+		ACADB4621FD2658E0092E7DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB4611FD2658E0092E7DD /* ViewController.swift */; };
+		ACADB4651FD2658E0092E7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADB4631FD2658E0092E7DD /* Main.storyboard */; };
+		ACADB4671FD2658E0092E7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADB4661FD2658E0092E7DD /* Assets.xcassets */; };
+		ACADB46A1FD2658E0092E7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADB4681FD2658E0092E7DD /* LaunchScreen.storyboard */; };
+		ACADB4751FD2658E0092E7DD /* Kholid_BasalamahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB4741FD2658E0092E7DD /* Kholid_BasalamahTests.swift */; };
+		ACADB4801FD2658E0092E7DD /* Kholid_BasalamahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB47F1FD2658E0092E7DD /* Kholid_BasalamahUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACADB4711FD2658E0092E7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACADB4541FD2658E0092E7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACADB45B1FD2658E0092E7DD;
+			remoteInfo = "Kholid Basalamah";
+		};
+		ACADB47C1FD2658E0092E7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACADB4541FD2658E0092E7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACADB45B1FD2658E0092E7DD;
+			remoteInfo = "Kholid Basalamah";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACADB45C1FD2658E0092E7DD /* Kholid Basalamah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kholid Basalamah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB45F1FD2658E0092E7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACADB4611FD2658E0092E7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACADB4641FD2658E0092E7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACADB4661FD2658E0092E7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACADB4691FD2658E0092E7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACADB46B1FD2658E0092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACADB4701FD2658E0092E7DD /* Kholid BasalamahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kholid BasalamahTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB4741FD2658E0092E7DD /* Kholid_BasalamahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kholid_BasalamahTests.swift; sourceTree = "<group>"; };
+		ACADB4761FD2658E0092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACADB47B1FD2658E0092E7DD /* Kholid BasalamahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kholid BasalamahUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB47F1FD2658E0092E7DD /* Kholid_BasalamahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kholid_BasalamahUITests.swift; sourceTree = "<group>"; };
+		ACADB4811FD2658E0092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACADB4591FD2658E0092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB46D1FD2658E0092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4781FD2658E0092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACADB4531FD2658E0092E7DD = {
+			isa = PBXGroup;
+			children = (
+				ACADB45E1FD2658E0092E7DD /* Kholid Basalamah */,
+				ACADB4731FD2658E0092E7DD /* Kholid BasalamahTests */,
+				ACADB47E1FD2658E0092E7DD /* Kholid BasalamahUITests */,
+				ACADB45D1FD2658E0092E7DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACADB45D1FD2658E0092E7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB45C1FD2658E0092E7DD /* Kholid Basalamah.app */,
+				ACADB4701FD2658E0092E7DD /* Kholid BasalamahTests.xctest */,
+				ACADB47B1FD2658E0092E7DD /* Kholid BasalamahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACADB45E1FD2658E0092E7DD /* Kholid Basalamah */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB45F1FD2658E0092E7DD /* AppDelegate.swift */,
+				ACADB4611FD2658E0092E7DD /* ViewController.swift */,
+				ACADB4631FD2658E0092E7DD /* Main.storyboard */,
+				ACADB4661FD2658E0092E7DD /* Assets.xcassets */,
+				ACADB4681FD2658E0092E7DD /* LaunchScreen.storyboard */,
+				ACADB46B1FD2658E0092E7DD /* Info.plist */,
+			);
+			path = "Kholid Basalamah";
+			sourceTree = "<group>";
+		};
+		ACADB4731FD2658E0092E7DD /* Kholid BasalamahTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB4741FD2658E0092E7DD /* Kholid_BasalamahTests.swift */,
+				ACADB4761FD2658E0092E7DD /* Info.plist */,
+			);
+			path = "Kholid BasalamahTests";
+			sourceTree = "<group>";
+		};
+		ACADB47E1FD2658E0092E7DD /* Kholid BasalamahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB47F1FD2658E0092E7DD /* Kholid_BasalamahUITests.swift */,
+				ACADB4811FD2658E0092E7DD /* Info.plist */,
+			);
+			path = "Kholid BasalamahUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACADB45B1FD2658E0092E7DD /* Kholid Basalamah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB4841FD2658E0092E7DD /* Build configuration list for PBXNativeTarget "Kholid Basalamah" */;
+			buildPhases = (
+				ACADB4581FD2658E0092E7DD /* Sources */,
+				ACADB4591FD2658E0092E7DD /* Frameworks */,
+				ACADB45A1FD2658E0092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kholid Basalamah";
+			productName = "Kholid Basalamah";
+			productReference = ACADB45C1FD2658E0092E7DD /* Kholid Basalamah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACADB46F1FD2658E0092E7DD /* Kholid BasalamahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB4871FD2658E0092E7DD /* Build configuration list for PBXNativeTarget "Kholid BasalamahTests" */;
+			buildPhases = (
+				ACADB46C1FD2658E0092E7DD /* Sources */,
+				ACADB46D1FD2658E0092E7DD /* Frameworks */,
+				ACADB46E1FD2658E0092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACADB4721FD2658E0092E7DD /* PBXTargetDependency */,
+			);
+			name = "Kholid BasalamahTests";
+			productName = "Kholid BasalamahTests";
+			productReference = ACADB4701FD2658E0092E7DD /* Kholid BasalamahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACADB47A1FD2658E0092E7DD /* Kholid BasalamahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB48A1FD2658E0092E7DD /* Build configuration list for PBXNativeTarget "Kholid BasalamahUITests" */;
+			buildPhases = (
+				ACADB4771FD2658E0092E7DD /* Sources */,
+				ACADB4781FD2658E0092E7DD /* Frameworks */,
+				ACADB4791FD2658E0092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACADB47D1FD2658E0092E7DD /* PBXTargetDependency */,
+			);
+			name = "Kholid BasalamahUITests";
+			productName = "Kholid BasalamahUITests";
+			productReference = ACADB47B1FD2658E0092E7DD /* Kholid BasalamahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACADB4541FD2658E0092E7DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Abi Sayuti";
+				TargetAttributes = {
+					ACADB45B1FD2658E0092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					ACADB46F1FD2658E0092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACADB45B1FD2658E0092E7DD;
+					};
+					ACADB47A1FD2658E0092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACADB45B1FD2658E0092E7DD;
+					};
+				};
+			};
+			buildConfigurationList = ACADB4571FD2658E0092E7DD /* Build configuration list for PBXProject "Kholid Basalamah" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACADB4531FD2658E0092E7DD;
+			productRefGroup = ACADB45D1FD2658E0092E7DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACADB45B1FD2658E0092E7DD /* Kholid Basalamah */,
+				ACADB46F1FD2658E0092E7DD /* Kholid BasalamahTests */,
+				ACADB47A1FD2658E0092E7DD /* Kholid BasalamahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACADB45A1FD2658E0092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB46A1FD2658E0092E7DD /* LaunchScreen.storyboard in Resources */,
+				ACADB4671FD2658E0092E7DD /* Assets.xcassets in Resources */,
+				ACADB4651FD2658E0092E7DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB46E1FD2658E0092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4791FD2658E0092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACADB4581FD2658E0092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB4621FD2658E0092E7DD /* ViewController.swift in Sources */,
+				ACADB4601FD2658E0092E7DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB46C1FD2658E0092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB4751FD2658E0092E7DD /* Kholid_BasalamahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4771FD2658E0092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB4801FD2658E0092E7DD /* Kholid_BasalamahUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACADB4721FD2658E0092E7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACADB45B1FD2658E0092E7DD /* Kholid Basalamah */;
+			targetProxy = ACADB4711FD2658E0092E7DD /* PBXContainerItemProxy */;
+		};
+		ACADB47D1FD2658E0092E7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACADB45B1FD2658E0092E7DD /* Kholid Basalamah */;
+			targetProxy = ACADB47C1FD2658E0092E7DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACADB4631FD2658E0092E7DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACADB4641FD2658E0092E7DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACADB4681FD2658E0092E7DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACADB4691FD2658E0092E7DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACADB4821FD2658E0092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACADB4831FD2658E0092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACADB4851FD2658E0092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kholid Basalamah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kholid-Basalamah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACADB4861FD2658E0092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kholid Basalamah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kholid-Basalamah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACADB4881FD2658E0092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kholid BasalamahTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kholid-BasalamahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kholid Basalamah.app/Kholid Basalamah";
+			};
+			name = Debug;
+		};
+		ACADB4891FD2658E0092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kholid BasalamahTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kholid-BasalamahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kholid Basalamah.app/Kholid Basalamah";
+			};
+			name = Release;
+		};
+		ACADB48B1FD2658E0092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kholid BasalamahUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kholid-BasalamahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kholid Basalamah";
+			};
+			name = Debug;
+		};
+		ACADB48C1FD2658E0092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kholid BasalamahUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kholid-BasalamahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kholid Basalamah";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACADB4571FD2658E0092E7DD /* Build configuration list for PBXProject "Kholid Basalamah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB4821FD2658E0092E7DD /* Debug */,
+				ACADB4831FD2658E0092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB4841FD2658E0092E7DD /* Build configuration list for PBXNativeTarget "Kholid Basalamah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB4851FD2658E0092E7DD /* Debug */,
+				ACADB4861FD2658E0092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB4871FD2658E0092E7DD /* Build configuration list for PBXNativeTarget "Kholid BasalamahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB4881FD2658E0092E7DD /* Debug */,
+				ACADB4891FD2658E0092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB48A1FD2658E0092E7DD /* Build configuration list for PBXNativeTarget "Kholid BasalamahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB48B1FD2658E0092E7DD /* Debug */,
+				ACADB48C1FD2658E0092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACADB4541FD2658E0092E7DD /* Project object */;
+}
